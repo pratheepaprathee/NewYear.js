@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('—Pngtree—dancing\ stars\ happy\ new\ year_13431623\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+h1 {
+    color: rgb(0, 124, 128);
+    font-size: 60px;
+    font-variant: small-caps;
+}
+
+h2 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: rgb(0, 128, 58);
+}
+
+.container {
+    font-size: 30px;
+    display: flex;
+    column-gap: 20px;
+}
+
+#year {
+    font-size: 40px;
+    padding: 40px;
+    padding-left: 150px;
+    color: rgba(17, 98, 145, 0.3);
+    position: absolute;
+    bottom: 0;
+}
+
+small {
+    color: teal
+}
